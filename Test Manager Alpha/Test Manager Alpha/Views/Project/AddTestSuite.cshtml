@@ -1,0 +1,17 @@
+﻿@model Test_Manager_Alpha.Models.Project
+
+@{
+    ViewBag.Title = @Model.Name + " New Test Suite";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Adding a Test Suite</h2>
+<form asp-action="CreateTestSuite" asp-controller="Project" asp-route-projectName="@Model.Name">
+    <p>
+        <label>Project Name:</label><br />
+        <input type="text" name="suiteName" />
+    </p>
+    <p>
+        <input type="submit" value="Add" />
+    </p>
+</form>

@@ -1,0 +1,21 @@
+﻿@model Test_Manager_Alpha.Models.TestSuite
+
+@{
+    ViewBag.Title = @Model.Project.Name + ": " + @Model.Name + " New Test Case";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Adding a Test Case</h2>
+<form asp-action="CreateTestCase" asp-controller="Project" asp-route-suiteName="@Model.Name" asp-route-projectName="@Model.Project.Name">
+    <p>
+        <label>Test Case Name:</label><br />
+        <input type="text" name="testCaseName" />
+    </p>
+    <p>
+        <label>Test Case Description:</label><br />
+        <textarea name="testCaseDescription" rows="10" cols="50"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Add" />
+    </p>
+</form>

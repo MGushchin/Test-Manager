@@ -1,0 +1,34 @@
+﻿@using Test_Manager_Alpha.Models;
+@model Test_Manager_Alpha.Models.Project
+
+@{
+	ViewBag.Title = @Model.Name;
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Project Info: @Model.Id</h2>
+
+<div>
+	<h3>Description:</h3>
+	<p> @Model.Description </p>
+</div>
+
+<h3>Test Suites</h3>
+<p><a asp-action="AddTestSuite" asp-route-projectName="@Model.Name">Add Test Suite</a></p>
+<table class="table">
+	<tr><th>Suite Name</th><th>TC</th><th>Add Test Case</th></tr>
+	@foreach (TestSuite testSuite in @Model.TestSuites)
+	{
+		<tr>
+			<td>@testSuite.Name (@testSuite.TestCases.Count)</td>
+			<td><a asp-action="AddTestCase" asp-route-testSuiteId="@testSuite.Id">Add Test Case</a></td>
+		</tr>
+		@foreach (TestCase testCase in testSuite.TestCases)
+		{
+			<tr>
+				<td></td>
+				<td><a asp-action="Index" asp-controller="TestCase" asp-route-testCaseId="@testCase.Id">@testCase.Name</a></td>
+			</tr>
+		}
+	}
+</table>
