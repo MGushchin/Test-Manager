@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Test_Manager_Alpha
 build_property.RootNamespace = Test_Manager_Alpha
-build_property.ProjectDir = F:\Github\.Net\Test Manager Alpha\Test Manager Alpha\
+build_property.ProjectDir = F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\Github\.Net\Test Manager Alpha\Test Manager Alpha
+build_property.MSBuildProjectDirectory = F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Home/Create.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Home/Index.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Home/_ViewImports.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Home/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/AddTestCase.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Project/AddTestCase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxBZGRUZXN0Q2FzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/AddTestSuite.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Project/AddTestSuite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxBZGRUZXN0U3VpdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/ShowInfo.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Project/ShowInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxTaG93SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Project/_ViewImports.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Project/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/Shared/_Layout.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/TestCase/Edit.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/TestCase/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdENhc2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/TestCase/Index.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/TestCase/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdENhc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Github/.Net/Test Manager Alpha/Test Manager Alpha/Views/TestCase/_ViewImports.cshtml]
+[F:/Github/Test-Manager/Test Manager Alpha/Test Manager Alpha/Views/TestCase/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdENhc2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -13,11 +13,11 @@
 	<p> @Model.Description </p>
 </div>
 	<table class="table">
-		<tr><th>Suite Name</th><th>TC</th><th>Add Test Case</th></tr>
+	<tr><th>Id</th><th>Action</th><th>Expected Result</th></tr>
 		@for (int i = 0; i < Model.Steps.Count; i++)
 		{
 			<tr>
-				<td>@i</td>
+				<td>@(i+1)</td>
 				<td>@Model.Steps[i].Action</td>
 				<td>@Model.Steps[i].ExpectedResult</td>
 			</tr>

@@ -132,3 +132,70 @@ F:\Github\.Net\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\refint\Tes
 F:\Github\.Net\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.pdb
 F:\Github\.Net\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.genruntimeconfig.cache
 F:\Github\.Net\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\ref\Test Manager Alpha.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\appsettings.Development.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\appsettings.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Test Manager Alpha.exe
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Test Manager Alpha.deps.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Test Manager Alpha.runtimeconfig.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Test Manager Alpha.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Test Manager Alpha.pdb
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Azure.Core.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Azure.Identity.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Memory.Data.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.csproj.AssemblyReference.cache
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.GeneratedMSBuildEditorConfig.editorconfig
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.AssemblyInfoInputs.cache
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.AssemblyInfo.cs
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.csproj.CoreCompileInputs.cache
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.MvcApplicationPartsAssemblyInfo.cache
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.RazorAssemblyInfo.cache
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.RazorAssemblyInfo.cs
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets\msbuild.Test Manager Alpha.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets\msbuild.build.Test Manager Alpha.props
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Test Manager Alpha.props
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Test Manager Alpha.props
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets.build.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\staticwebassets.development.json
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\scopedcss\bundle\Test Manager Alpha.styles.css
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.csproj.CopyComplete
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\refint\Test Manager Alpha.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.pdb
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.genruntimeconfig.cache
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\ref\Test Manager Alpha.dll

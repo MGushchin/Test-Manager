@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Github\\.Net\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj": {}
+    "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj": {}
   },
   "projects": {
-    "F:\\Github\\.Net\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj": {
+    "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Github\\.Net\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj",
+        "projectUniqueName": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj",
         "projectName": "Test Manager Alpha",
-        "projectPath": "F:\\Github\\.Net\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj",
+        "projectPath": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\Test Manager Alpha.csproj",
         "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
-        "outputPath": "F:\\Github\\.Net\\Test Manager Alpha\\Test Manager Alpha\\obj\\",
+        "outputPath": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",

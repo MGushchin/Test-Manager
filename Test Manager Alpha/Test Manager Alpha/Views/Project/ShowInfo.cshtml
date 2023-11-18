@@ -16,7 +16,7 @@
 <h3>Test Suites</h3>
 <p><a asp-action="AddTestSuite" asp-route-projectName="@Model.Name">Add Test Suite</a></p>
 <table class="table">
-	<tr><th>Suite Name</th><th>TC</th><th>Add Test Case</th></tr>
+	<tr><th>Suite Name</th><th>TC</th></tr>
 	@foreach (TestSuite testSuite in @Model.TestSuites)
 	{
 		<tr>
