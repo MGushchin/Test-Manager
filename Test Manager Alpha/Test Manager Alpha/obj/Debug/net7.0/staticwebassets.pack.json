@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\Home\\Index.css",
+      "PackagePath": "staticwebassets\\CSS\\Home\\Index.css"
+    },
+    {
+      "Id": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\Project\\ShowInfo.css",
+      "PackagePath": "staticwebassets\\CSS\\Project\\ShowInfo.css"
+    },
+    {
+      "Id": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\Shared\\_Layout.css",
+      "PackagePath": "staticwebassets\\CSS\\Shared\\_Layout.css"
+    },
+    {
+      "Id": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\TestCase\\Edit.css",
+      "PackagePath": "staticwebassets\\CSS\\TestCase\\Edit.css"
+    },
+    {
+      "Id": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\TestCase\\Index.css",
+      "PackagePath": "staticwebassets\\CSS\\TestCase\\Index.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Test Manager Alpha.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Test Manager Alpha.props",
+      "PackagePath": "build\\Test Manager Alpha.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Test Manager Alpha.props",
+      "PackagePath": "buildMultiTargeting\\Test Manager Alpha.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Test Manager Alpha.props",
+      "PackagePath": "buildTransitive\\Test Manager Alpha.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,16 +1,23 @@
 ﻿@model IEnumerable<Test_Manager_Alpha.Models.Project>
+<link rel="stylesheet" type="text/css" href="~/CSS/Home/Index.css" />
 
 @{
     ViewBag.Title = "Test Manager: All Projects";
     Layout = "/Views/Shared/_Layout.cshtml";
 }
 
-<p><a asp-action="Create">Add project</a></p>
+<p><a class="adding" asp-action="Create">Add project</a></p>
 <table class="table">
     @foreach (var item in Model)
     {
         <tr>
-            <td><a asp-action="OpenProject" asp-route-projectName="@item.Name">@item.Name</a></td>
+            <td><a class="project" asp-action="OpenProject" asp-route-projectName="@item.Name">@item.Name</a></td>
         </tr>
     }
 </table>
+@section Footer {
+    <div>
+        <p> </p>
+        <p>Copyright© Maxim Gushchin, @DateTime.Now.Year. Nothing reserved </p>
+    </div>
+}

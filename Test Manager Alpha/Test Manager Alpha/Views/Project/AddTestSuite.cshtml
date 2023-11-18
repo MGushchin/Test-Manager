@@ -1,4 +1,5 @@
 ﻿@model Test_Manager_Alpha.Models.Project
+<link rel="stylesheet" type="text/css" href="~/CSS/Shared/_Layout.css" />
 
 @{
     ViewBag.Title = @Model.Name + " New Test Suite";
@@ -6,12 +7,13 @@
 }
 
 <h2>Adding a Test Suite</h2>
+<a asp-action="ShowInfo" asp-controller="Project" asp-route-projectName=@Model.Name>Return</a>
 <form asp-action="CreateTestSuite" asp-controller="Project" asp-route-projectName="@Model.Name">
     <p>
-        <label>Project Name:</label><br />
+        <label>Suite Name:</label><br />
         <input type="text" name="suiteName" />
     </p>
     <p>
-        <input type="submit" value="Add" />
+        <input class="adding" type="submit" value="Add" />
     </p>
 </form>

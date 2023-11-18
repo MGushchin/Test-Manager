@@ -1,18 +1,17 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="~/CSS/Shared/_Layout.css" />
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <style>
-        body{
-            background-color:lightgrey;
-        }
-    </style>
 </head>
 <body>
-    <h2>@ViewBag.Title</h2>
-    <div><a href="/Home/Index">Home</a></div>
+    <header>
+        <h1>@ViewBag.Title</h1>
+    </header>
+    <a class="menuButton" asp-action="Index" asp-controller="Home">Home</a>
     <div>
         @RenderBody()
     </div>

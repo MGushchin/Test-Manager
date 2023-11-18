@@ -1,5 +1,6 @@
 ﻿@using Test_Manager_Alpha.Models;
 @model Test_Manager_Alpha.Models.TestCase
+<link rel="stylesheet" type="text/css" href="~/CSS/TestCase/Index.css" />
 
 @{
 	ViewBag.Title = @Model.Name;
@@ -12,12 +13,12 @@
 	<h3>Description:</h3>
 	<p> @Model.Description </p>
 </div>
-	<table class="table">
+	<table class="testCaseTable">
 	<tr><th>Id</th><th>Action</th><th>Expected Result</th></tr>
 		@for (int i = 0; i < Model.Steps.Count; i++)
 		{
 			<tr>
-				<td>@(i+1)</td>
+				<td class="Id">@(i+1)</td>
 				<td>@Model.Steps[i].Action</td>
 				<td>@Model.Steps[i].ExpectedResult</td>
 			</tr>

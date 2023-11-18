@@ -1,4 +1,5 @@
 ﻿@model Test_Manager_Alpha.Models.TestSuite
+<link rel="stylesheet" type="text/css" href="~/CSS/Shared/_Layout.css" />
 
 @{
     ViewBag.Title = @Model.Project.Name + ": " + @Model.Name + " New Test Case";
@@ -6,6 +7,7 @@
 }
 
 <h2>Adding a Test Case</h2>
+<a asp-action="ShowInfo" asp-controller="Project" asp-route-projectName=@Model.Project.Name>Return</a>
 <form asp-action="CreateTestCase" asp-controller="Project" asp-route-suiteName="@Model.Name" asp-route-projectName="@Model.Project.Name">
     <p>
         <label>Test Case Name:</label><br />
@@ -16,6 +18,6 @@
         <textarea name="testCaseDescription" rows="10" cols="50"></textarea>
     </p>
     <p>
-        <input type="submit" value="Add" />
+        <input class="adding" type="submit" value="Add" />
     </p>
 </form>

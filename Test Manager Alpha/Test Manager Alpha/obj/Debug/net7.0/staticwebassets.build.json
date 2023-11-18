@@ -1,11 +1,105 @@
 {
   "Version": 1,
-  "Hash": "+sm+1EihQ2LqgwvQ3TE/Waj6J/Mr+k3UZM4hjQRSmwU=",
+  "Hash": "HLBZztFZNaFh4F2pSNxIXa3UG5E/rD/V+BrB/WxGtww=",
   "Source": "Test Manager Alpha",
   "BasePath": "_content/Test Manager Alpha",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Test Manager Alpha\\wwwroot",
+      "Source": "Test Manager Alpha",
+      "ContentRoot": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\",
+      "BasePath": "_content/Test Manager Alpha",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\Home\\Index.css",
+      "SourceId": "Test Manager Alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\",
+      "BasePath": "_content/Test Manager Alpha",
+      "RelativePath": "CSS/Home/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\Home\\Index.css"
+    },
+    {
+      "Identity": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\Project\\ShowInfo.css",
+      "SourceId": "Test Manager Alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\",
+      "BasePath": "_content/Test Manager Alpha",
+      "RelativePath": "CSS/Project/ShowInfo.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\Project\\ShowInfo.css"
+    },
+    {
+      "Identity": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\Shared\\_Layout.css",
+      "SourceId": "Test Manager Alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\",
+      "BasePath": "_content/Test Manager Alpha",
+      "RelativePath": "CSS/Shared/_Layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\Shared\\_Layout.css"
+    },
+    {
+      "Identity": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\TestCase\\Edit.css",
+      "SourceId": "Test Manager Alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\",
+      "BasePath": "_content/Test Manager Alpha",
+      "RelativePath": "CSS/TestCase/Edit.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\TestCase\\Edit.css"
+    },
+    {
+      "Identity": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\CSS\\TestCase\\Index.css",
+      "SourceId": "Test Manager Alpha",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Github\\Test-Manager\\Test Manager Alpha\\Test Manager Alpha\\wwwroot\\",
+      "BasePath": "_content/Test Manager Alpha",
+      "RelativePath": "CSS/TestCase/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\TestCase\\Index.css"
+    }
+  ]
 }

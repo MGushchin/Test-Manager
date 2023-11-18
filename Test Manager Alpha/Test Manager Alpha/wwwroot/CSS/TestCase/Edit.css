@@ -1,0 +1,34 @@
+﻿.testCaseTable{
+    padding: 20px 0;
+}
+    .testCaseTable td.Id {
+        width: 1%;
+    }
+
+    .testCaseTable td.Action {
+        width: 20%;
+    }
+
+    .testCaseTable td.Result {
+        width: 60%;
+    }
+
+    .testCaseTable td.Options {
+        width: 19%;
+    }
+
+.tableInputAction {
+    width: 99%;
+    height: 40px;
+}
+
+.tableInputResult {
+    width: 99%;
+    height: 40px;
+}
+
+.testCaseName{
+    width: 20%;
+    height: 22px;
+    font-size: 20px;
+}

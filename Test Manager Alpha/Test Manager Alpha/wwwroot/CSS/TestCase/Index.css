@@ -1,0 +1,30 @@
+﻿.testCaseTable {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+    .testCaseTable th {
+        font-weight: bold;
+        padding: 5px;
+        background: lightgrey;
+        border: 1px solid #dddddd;
+    }
+
+    .testCaseTable td.Id
+    {
+        width: 1%;
+    }
+
+    .testCaseTable td {
+        border: 1px solid #dddddd;
+        padding: 5px;
+    }
+
+    .testCaseTable tr td:first-child, .testCaseTable tr th:first-child {
+        border-left: none;
+    }
+
+    .testCaseTable tr td:last-child, .testCaseTable tr th:last-child {
+        border-right: none;
+    }

@@ -1,0 +1,30 @@
+﻿.testSuite {
+    font-size: 20px;
+}
+
+.testCase {
+    text-align: left;
+    padding: 4px 4px;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.addingLite {
+    appearance: none;
+    border: 0;
+    border-radius:3px;
+    background-color: mediumseagreen;
+    color: #fff;
+    padding: 3px 6px;
+    text-decoration: none;
+    text-align: center;
+    font-family: inherit;
+    font-family: arial;
+    cursor: pointer;
+}
+
+    .addingLite:hover {
+        background: seagreen;
+    }

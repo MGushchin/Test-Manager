@@ -1,5 +1,7 @@
 ﻿@using Test_Manager_Alpha.Models;
 @model Test_Manager_Alpha.Models.TestCase
+<link rel="stylesheet" type="text/css" href="~/CSS/TestCase/Edit.css" />
+<link rel="stylesheet" type="text/css" href="~/CSS/Shared/_Layout.css" />
 
 @{
 	ViewBag.Title = @Model.Name;
@@ -10,25 +12,23 @@
 
 <form asp-action="Edit" asp-controller="TestCase" asp-route-id="@Model.Id">
 	<h1> </h1>
-	<input type="submit" value="Save" />
+	<input class="commonButton" type="submit" value="Save" />
 	<div>
-		<h3>Test case Name:</h3>
-		<input type ="text" asp-for="Name" />
-		<h3>Description:</h3>
-		<input type="text" asp-for="Description"/>
+		<h3>Test case Name:</h3> <input type="text" class="testCaseName" asp-for="Name" />
+		<h3>Description:</h3> <input type="text" class="testCaseDescription" asp-for="Description" />
 	</div>
 
-	<table class="table">
-		<tr><th>Id</th><th>Action</th><th>Expected Result</th></tr>
+	<table class="testCaseTable">
+		<tr><th>Id</th><th>Action</th><th>Expected Result</th><th>Options</th></tr>
 		@for (int i = 0; i < Model.Steps.Count; i++)
 		{
 			<tr >
-				<td size="1">@(i+1)</td>
-				<td><input type="text" asp-for="@Model.Steps[i].Action" size="50"></td>
-				<td><input type="text" asp-for="@Model.Steps[i].ExpectedResult" size="50"></td>
-				<td><a asp-action="DeleteStep" asp-controller="TestCase" asp-route-testCaseId=@Model.Id asp-route-stepId=@Model.Steps[i].Id>Delete Step</a></td>
+				<td class="Id">@(i + 1)</td>
+				<td class="Action"><input type="text" class="tableInputAction" asp-for="@Model.Steps[i].Action"></td>
+				<td class="Result"><input type="text" class="tableInputResult" asp-for="@Model.Steps[i].ExpectedResult"></td>
+				<td class="Options"><a class="commonButton" asp-action="DeleteStep" asp-controller="TestCase" asp-route-testCaseId=@Model.Id asp-route-stepId=@Model.Steps[i].Id>Delete Step</a></td>
 			</tr>
 		}
-		<tr><a asp-action="AddStep" asp-controller="TestCase" asp-route-testCaseId=@Model.Id>Add Step</a></tr>
+		<tr><a class="adding" asp-action="AddStep" asp-controller="TestCase" asp-route-testCaseId=@Model.Id>Add Step</a></tr>
 	</table>
 </form>

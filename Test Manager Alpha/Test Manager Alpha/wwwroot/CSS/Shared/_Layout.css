@@ -1,0 +1,78 @@
+﻿header {
+    width: 100%;
+    background-color: skyblue;
+    height: 50px;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100%;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+a.menuButton {
+    width: 90px;
+    text-align: center;
+    display: block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: lightblue 1px solid;
+    color: black;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: .5s;
+    border-radius: 0px;
+}
+
+    a.menuButton:hover {
+        border: black 1px solid;
+    }
+
+
+.adding {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: inherit;
+    font-family: arial;
+    cursor: pointer;
+}
+
+    .adding:hover {
+        background: darkgreen;
+    }
+
+.commonButton {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: grey;
+    color: #fff;
+    padding: 4px 8px;
+    text-decoration: none;
+    text-align: center;
+    font-family: inherit;
+    font-family: arial;
+    cursor: pointer;
+}
+
+    .commonButton:hover {
+        background: darkgray;
+    }
+
+

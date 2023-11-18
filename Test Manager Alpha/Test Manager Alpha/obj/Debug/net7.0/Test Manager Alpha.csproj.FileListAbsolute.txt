@@ -199,3 +199,4 @@ F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\re
 F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.pdb
 F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\Test Manager Alpha.genruntimeconfig.cache
 F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\obj\Debug\net7.0\ref\Test Manager Alpha.dll
+F:\Github\Test-Manager\Test Manager Alpha\Test Manager Alpha\bin\Debug\net7.0\Test Manager Alpha.staticwebassets.runtime.json
