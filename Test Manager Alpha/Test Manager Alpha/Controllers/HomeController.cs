@@ -24,13 +24,12 @@ namespace Test_Manager_Alpha.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Create(string name, string description)
+		public async Task<IActionResult> Create(Project project)
 		{
-			if (db.Projects.Any(p => p.Name == name))
-				return RedirectToAction("Create");
+			if (!ModelState.IsValid)
+                return View(project);
 
-			Project? project = new Project() { Name = name, Description = description };
-			db.Projects.Add(project);
+            db.Projects.Add(project);
 			await db.SaveChangesAsync();
 			return RedirectToAction("Index");
 		}

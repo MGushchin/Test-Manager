@@ -1,4 +1,6 @@
-﻿namespace Test_Manager_Alpha.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Test_Manager_Alpha.Models
 {
     public class Step
     {

@@ -1,19 +1,44 @@
-﻿@model Test_Manager_Alpha.Models.Project
+﻿@model Test_Manager_Alpha.ViewModels.TestSuiteWithProject
 <link rel="stylesheet" type="text/css" href="~/CSS/Shared/_Layout.css" />
+<style>
+    .field-validation-error {
+        color: #b94a48;
+    }
 
+    input.input-validation-error {
+        border: 1px solid #b94a48;
+    }
+
+    input.valid {
+        border: 1px solid #16a085;
+    }
+
+    .validation-summary-errors {
+        color: #b94a48;
+    }
+</style>
 @{
-    ViewBag.Title = @Model.Name + " New Test Suite";
+    ViewBag.Title = @Model.ParentProject.Name + " New Test Suite";
     Layout = "/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Adding a Test Suite</h2>
-<a asp-action="ShowInfo" asp-controller="Project" asp-route-projectName=@Model.Name>Return</a>
-<form asp-action="CreateTestSuite" asp-controller="Project" asp-route-projectName="@Model.Name">
+<a asp-action="ShowInfo" asp-controller="Project" asp-route-projectName=@Model.ParentProject.Name>Return</a>
+<form asp-action="AddTestSuite" asp-controller="Project">
+    <p>
+        <input type="hidden" value="@Model.ParentProject.Id" name="projectId" />
+    </p>
     <p>
         <label>Suite Name:</label><br />
-        <input type="text" name="suiteName" />
+        <input type="text" asp-for="Suite.Name" />
+        <span asp-validation-for="Suite.Name" />
     </p>
     <p>
         <input class="adding" type="submit" value="Add" />
     </p>
 </form>
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script>

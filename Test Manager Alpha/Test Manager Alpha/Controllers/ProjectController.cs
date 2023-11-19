@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Test_Manager_Alpha.Models;
+using Test_Manager_Alpha.ViewModels;
 
 namespace Test_Manager_Alpha.Controllers
 {
@@ -22,7 +23,8 @@ namespace Test_Manager_Alpha.Controllers
         public async Task<IActionResult> AddTestSuite(string projectName)
         {
             Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Name == projectName);
-            return View(project);
+            TestSuiteWithProject model = new TestSuiteWithProject() { ParentProject = project };
+            return View(model);
         }
 
         public async Task<IActionResult> AddTestCase(int testSuiteId)
@@ -32,18 +34,25 @@ namespace Test_Manager_Alpha.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateTestSuite(string projectName, string suiteName)
+        public async Task<IActionResult> AddTestSuite(TestSuiteWithProject model, int projectId)
         {
-            Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Name == projectName);
-            TestSuite? testSuite = new TestSuite() { Name = suiteName, Project = project };
+            Project? project = await db.Projects.FirstOrDefaultAsync(p => p.Id == projectId);
 
-            db.TestSuites.Add(testSuite);
+            if (!ModelState.IsValid)
+            {
+                model.ParentProject = project;
+                return View(model);
+            }
 
-            project.TestSuites.Add(testSuite);
+            model.Suite.Project = project;
+
+            db.TestSuites.Add(model.Suite);
+
+            project.TestSuites.Add(model.Suite);
 
             await db.SaveChangesAsync();
 
-            return RedirectToAction("ShowInfo", "Project", new { projectName = projectName });
+            return RedirectToAction("ShowInfo", "Project", new { projectName = project.Name });
         }
 
         [HttpPost]
