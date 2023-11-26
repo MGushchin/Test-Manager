@@ -5,15 +5,15 @@
         width: 1%;
     }
 
-    .testCaseTable td.Action {
+    .testCaseTable td.ActionCell {
         width: 20%;
     }
 
-    .testCaseTable td.Result {
+    .testCaseTable td.ResultCell {
         width: 60%;
     }
 
-    .testCaseTable td.Options {
+    .testCaseTable td.OptionsCell {
         width: 19%;
     }
 

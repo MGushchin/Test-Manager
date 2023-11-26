@@ -20,7 +20,7 @@ namespace Test_Manager_Alpha.Controllers
 			return View(testCase);
 		}
 
-		public async Task<IActionResult> Edit(int? id)
+		public async Task<IActionResult> Edit(int id)
 		{
 			if (id != null)
 			{
@@ -89,5 +89,11 @@ namespace Test_Manager_Alpha.Controllers
 
 			return RedirectToAction("Edit", new { id = testCaseId });
 		}
+
+		//public async void Refresh(int id)
+		//{
+		//	TestCase? testCase = await db.TestCases.Include(p => p.Steps).Include(p => p.Suite).ThenInclude(p => p.Project).FirstOrDefaultAsync(p => p.Id == id);
+		//	//await this.hubContext.Clients.
+		//}
 	}
 }

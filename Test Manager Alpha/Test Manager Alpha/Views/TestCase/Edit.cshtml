@@ -1,5 +1,6 @@
 ﻿@using Test_Manager_Alpha.Models;
 @model Test_Manager_Alpha.Models.TestCase
+
 <link rel="stylesheet" type="text/css" href="~/CSS/TestCase/Edit.css" />
 <link rel="stylesheet" type="text/css" href="~/CSS/Shared/_Layout.css" />
 
@@ -9,26 +10,20 @@
 }
 
 <div><a asp-action="ShowInfo" asp-controller="Project" asp-route-projectName=@Model.Suite.Project.Name>Return</a></div>
+<p hidden id="TestCaseId">@Model.Id</p>
+<input id="save" class="commonButton"value="Save" />
+<table class="testCaseTable" id="tblSteps">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Action</th>
+			<th>Result</th>
+			<th>Options</th>
+		</tr>
+	</thead>
+	<tbody></tbody>
+</table>
+<div><p id="response"></p></div>
 
-<form asp-action="Edit" asp-controller="TestCase" asp-route-id="@Model.Id">
-	<h1> </h1>
-	<input class="commonButton" type="submit" value="Save" />
-	<div>
-		<h3>Test case Name:</h3> <input type="text" class="testCaseName" asp-for="Name" />
-		<h3>Description:</h3> <input type="text" class="testCaseDescription" asp-for="Description" />
-	</div>
-
-	<table class="testCaseTable">
-		<tr><th>Id</th><th>Action</th><th>Expected Result</th><th>Options</th></tr>
-		@for (int i = 0; i < Model.Steps.Count; i++)
-		{
-			<tr >
-				<td class="Id">@(i + 1)</td>
-				<td class="Action"><input type="text" class="tableInputAction" asp-for="@Model.Steps[i].Action"></td>
-				<td class="Result"><input type="text" class="tableInputResult" asp-for="@Model.Steps[i].ExpectedResult"></td>
-				<td class="Options"><a class="commonButton" asp-action="DeleteStep" asp-controller="TestCase" asp-route-testCaseId=@Model.Id asp-route-stepId=@Model.Steps[i].Id>Delete Step</a></td>
-			</tr>
-		}
-		<tr><a class="adding" asp-action="AddStep" asp-controller="TestCase" asp-route-testCaseId=@Model.Id>Add Step</a></tr>
-	</table>
-</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+<script src="~/js/TestCaseEdit.js"></script>
