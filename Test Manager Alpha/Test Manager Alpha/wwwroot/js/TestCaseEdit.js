@@ -12,7 +12,6 @@ hubConnection.start()
                 document.getElementById("response").innerText = "Error";
                 return console.error(err.toString());
             });
-        document.getElementById("response").innerText = `OK2`;
     })
     .catch(function (err) {
         return console.error(err.toString());
@@ -34,11 +33,12 @@ hubConnection.on("ReceivedTestCase", function (testCase) {
 
     var row = table.insertRow();
 
-    var cell = row.insertCell();
 
-    row.insertCell();
-    row.insertCell();
-    row.insertCell();
+    //row.insertCell().innerHTML = 'Id';
+    //row.insertCell().innerHTML = 'Action';
+    //row.insertCell().innerHTML = 'Result';
+    //row.insertCell().innerHTML = 'Options';
+    row.innerHTML = '<tr><th>Id</th><th>Action</th><th>Expected Result</th><th>Options</th></tr>';
 
     for (let i = 0; i < testCase.steps.length; i++) {
         var newRow = table.insertRow();
